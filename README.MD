@@ -14,3 +14,6 @@
     <li>Usar Windos API</li>
     <li>Usar pipe-filter pattern</li>
 </ul>
+
+<h1>License</h1>
+Free to use
