@@ -2,24 +2,25 @@
 // Created by jonasv on 24/02/24.
 //
 
-#include "calculus.h"
+#include "prompt.h"
 
-namespace calc {
+namespace prt {
 
 
-    void calculus::display(const std::string& result) {
+    void prompt::display(const std::string& result) {
         std::cout << "Result: " << result << std::endl;
     }
 
-    void calculus::caller(std::string& input) {
+    void prompt::caller(std::string& input) {
         // select operator...
 
         display(input);
     }
 
-    void calculus::listen() {
+    void prompt::listen() {
         std::string userInput {};
-        std::cin >> userInput;
+
+        std::getline(std::cin, userInput);
 
         if(userInput == "-1") {
             exit = true;
@@ -29,7 +30,7 @@ namespace calc {
         caller(userInput);
     }
 
-    bool calculus::appShouldClose() const {
+    bool prompt::appShouldClose() const {
         return exit;
     }
 } // calc

@@ -1,11 +1,11 @@
 //
 // Created by jonasv on 24/02/24.
 //
-#include"calculus.h"
+#include"prompt.h"
 
 int main()
 {
-    calc::calculus app;
+    prt::prompt app;
 
     while(!app.appShouldClose())
     {

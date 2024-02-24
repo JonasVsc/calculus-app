@@ -8,9 +8,9 @@
 #ifndef CALCULUS_APP_CALCULUS_H
 #define CALCULUS_APP_CALCULUS_H
 
-namespace calc {
+namespace prt {
 
-    class calculus {
+    class prompt {
     public:
         void listen();
         static void display(const std::string& result);

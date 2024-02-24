@@ -5,5 +5,5 @@ set(EXECUTABLE_OUTPUT_PATH ../build)
 
 
 add_executable(calculus-app src/main.cpp
-        src/calculus.h
-        src/calculus.cpp)
+        src/prompt.h
+        src/prompt.cpp)
