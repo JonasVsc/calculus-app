@@ -1,7 +1,7 @@
 //
 // Created by jonasv on 24/02/24.
 //
-#include"prompt.h"
+#include"calculus.h"
 
 int main()
 {

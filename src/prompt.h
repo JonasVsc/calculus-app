@@ -1,12 +1,11 @@
 //
 // Created by jonasv on 24/02/24.
 //
-
 #include<iostream>
 
 
-#ifndef CALCULUS_APP_CALCULUS_H
-#define CALCULUS_APP_CALCULUS_H
+#ifndef PROMPT_APP_PROMPT_H
+#define PROMPT_APP_PROMPT_H
 
 namespace prt {
 
@@ -20,7 +19,6 @@ namespace prt {
         bool exit {false};
 
     };
-
 } // calc
 
-#endif //CALCULUS_APP_CALCULUS_H
+#endif //PROMPT_APP_PROMPT_H
